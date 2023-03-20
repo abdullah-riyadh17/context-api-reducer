@@ -1,7 +1,7 @@
 import React from "react";
 
-const BookReducer = () => {
+const bookReducer = () => {
   return <div></div>;
 };
 
-export default BookReducer;
+export default bookReducer;

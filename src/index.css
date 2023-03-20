@@ -47,3 +47,35 @@ button {
   display: block;
   font-size: 20px;
 }
+.book-list {
+  margin: 20px;
+}
+.book-list ul {
+  padding: 0;
+  list-style-type: none;
+}
+.book-list li {
+  background: rgb(219, 216, 22);
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.book-list .title {
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.2em;
+}
+.book-list .author {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9em;
+  color: #fff;
+}
+.empty {
+  color: rebeccapurple;
+  font-size: 24px;
+  margin: 20px;
+  text-align: center;
+}

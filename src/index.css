@@ -25,3 +25,25 @@ body {
 .navbar p {
   font-size: 24px;
 }
+
+form {
+  padding: 20px;
+}
+input {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 6px 0;
+  background: lightgray;
+  color: green;
+  border: 0;
+}
+button {
+  width: 100%;
+  margin: 6px auto;
+  background: lightgreen;
+  border: 0;
+  padding: 20px;
+  display: block;
+  font-size: 20px;
+}

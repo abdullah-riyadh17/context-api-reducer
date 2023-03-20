@@ -1,8 +1,8 @@
 import React, { createContext, useEffect, useReducer } from "react";
-import bookReducer from "../reducers/bookReducer";
+import { bookReducer } from "../reducers/bookReducer";
 
 export const BookContext = createContext();
-const BookContextProvider = (props) => {
+const BookcontextProvider = (props) => {
   const [books, dispatch] = useReducer(bookReducer, [], () => {
     const localData = localStorage.getItem("books");
     return localData ? JSON.parse(localData) : [];
@@ -17,4 +17,4 @@ const BookContextProvider = (props) => {
   );
 };
 
-export default BookContextProvider;
+export default BookcontextProvider;

@@ -7,6 +7,9 @@ const BookDetails = ({ book }) => {
     <li onClick={() => dispatch({ type: "REMOVE_BOOK", id: book.id })}>
       <div className="title"></div>
       <div className="author"></div>
+      <button onClick={() => dispatch({ type: "REMOVE_BOOK", id: book.id })}>
+        DELETE
+      </button>
     </li>
   );
 };

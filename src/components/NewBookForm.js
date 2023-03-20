@@ -8,8 +8,6 @@ const NewBookForm = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     dispatch({ type: "ADD_BOOK", book: { title, author } });
-    setTitle("");
-    setAuthor("");
   };
   return (
     <form onSubmit={handleSubmit}>
